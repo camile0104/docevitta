@@ -1,0 +1,2881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docevitta - Doceria e sorveteria</title>
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="docevitta.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">Fiquem atentos as promoções do mês!!</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search product" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./img/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+            <data class="btn-text" value="0">R$0</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#inicio" class="navbar-link has-after">Início</a>
+            </li>
+
+            <li>
+              <a href="#produtos" class="navbar-link has-after">Produtos</a>
+            </li>
+
+            <li>
+              <a href="#lancamento" class="navbar-link has-after">Lançamentos</a>
+            </li>
+
+            <li>
+              <a href="#empresa" class="navbar-link has-after">Nossa empresa</a>
+            </li>
+
+            <li>
+              <a href="#encomendas" class="navbar-link has-after">Encomendas</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#inicio" class="navbar-link" data-nav-link>Início</a>
+        </li>
+
+        <li>
+          <a href="#produtos" class="navbar-link" data-nav-link>Produtos</a>
+        </li>
+
+        <li>
+          <a href="#lancamento" class="navbar-link" data-nav-link>Lançamentos</a>
+        </li>
+
+        <li>
+          <a href="#empresa" class="navbar-link" data-nav-link>Nossa empresa</a>
+        </li>
+
+        <li>
+          <a href="#encomendas" class="navbar-link" data-nav-link>Encomendas</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="inicio" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./img/capa1.png')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Para os amantes <br>
+                    de brigadeiros
+                  </h1>
+
+                  <p class="hero-text">
+                    Conheça o nosso catálogo recheado de novidades, que vai fazer você se apaixonar!
+                  </p>
+
+                  <p class="price">Preços a partir de R$ 3,00</p>
+
+                  <a href="#" class="btn btn-primary">Venha conhecer</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./img/capa2.png')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Abusou dos <br>
+                    brigadeiros?
+                  </h1>
+
+                  <p class="hero-text">
+                    Não se preocupa!! Temos novos sabores dos nossos doces artesanais. Você só vai conhecer depois que comprar, hein!
+                  </p>
+
+                  <p class="price">Não perca a oportunidade!</p>
+
+                  <a href="#" class="btn btn-primary">Conheça os nossos doces</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./img/capa3.png')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Ainda tem <br>
+                    muito mais!!!
+                  </h1>
+
+                  <p class="hero-text">
+                    O que você está esperando para adquirir essas delícias? Elas estão esperando por você.
+                  </p>
+
+                  <p class="price">Venha apreciar os nossos doces</p>
+
+                  <a href="#" class="btn btn-primary">Compre e conheça</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Nossos produtos</h2>
+
+                <p class="card-text">A partir R$ 3,00</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Conheça</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./img/bloco-1.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Quais as novidades?</h2>
+
+                <p class="card-text">Você tem que descobrir!</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Descubra agora</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./img/bloco-2.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Promoções</h2>
+
+                <p class="card-text">Vamos negociar!</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Aproveite</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./img/bloco-3.png')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRIMEIRA PARTE DOS DOCES
+      -->
+
+      <section class="section shop" id="produtos" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Nossos doces artesanais</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Aproveite as nossas ofertas</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/cupcake-chocolate.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <!--<span class="badge" aria-label="20% off">SÓ ESSE MÊS</span>-->
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,50 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cupcake tradicional</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/cupcake-redvelvet.png" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                    <span class="badge" aria-label="20% off">SÓ ESSE MÊS</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,90 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Cupcake sabor Red-Velvet</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brownie-tradicional.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                    <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">R$ 5,00</del>
+                    <span class="span">R$ 4,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brownie tradicional</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brownie-recheado.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+                  
+                  <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">R$ 6,00</del>
+                    <span class="span">R$ 5,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brownie recheado</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/taca-sorvete.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <!--<span class="badge" aria-label="20% off">-20%</span>-->
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+
+                    <span class="span">R$ 7,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Taça de sorvete ou açaí</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/trufas.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Trufas com sabores sortidos</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--SEGUNDA PARTE DOS DOCES-->
+
+      <section class="section shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Sabores de sorvetes - Para a taça</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Encomendas</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-morango.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de morango</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-chocolate.png" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de chocolate</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-baunilha.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de baunilha</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-caqui.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de caqui</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-framboesa.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de framboesa</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sorvete-pequi.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de pequi</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <li class="scrollbar-item">
+                  <div class="shop-card">
+    
+                    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                      <img src="./img/sorvete-pitaya.png" width="540" height="720" loading="lazy"
+                        alt="Facial cleanser" class="img-cover">
+
+    
+                      <div class="card-actions">
+    
+                        <button class="action-btn" aria-label="add to cart">
+                          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="add to whishlist">
+                          <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="compare">
+                          <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                      </div>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <h3>
+                        <a href="#" class="card-title">Sorvete de pitaya</a>
+                      </h3>
+    
+                      <div class="card-rating">
+    
+                        <div class="rating-wrapper" aria-label="5 start rating">
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        </div>
+    
+                      </div>
+    
+                    </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/sovete-pitanga.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de pitanga</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+          </div>
+        </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--TERCEIRA PARTE DOS DOCES-->
+
+      <section class="section shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Sabores duplos de sorvete - Para taça </h2>
+
+            <a href="#" class="btn-link">
+              <span class="span"> Encomendas</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/abacaxi-hortela.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de abacaxi com hortelã</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/maracuja-coco.png" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de maracujá com coco</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/menta-chocolate.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de menta com chocolate</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/manga-laranja.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de manga com laranja</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/ninho-oreo.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de ninho com oreo</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/chocolate-amendoim.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3>
+                    <a href="#" class="card-title">Sorvete de chocolate com amendoim</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <li class="scrollbar-item">
+                  <div class="shop-card">
+    
+                    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                      <img src="./img/pistache-nozes.png" width="540" height="720" loading="lazy"
+                        alt="Facial cleanser" class="img-cover">
+
+    
+                      <div class="card-actions">
+    
+                        <button class="action-btn" aria-label="add to cart">
+                          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="add to whishlist">
+                          <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="compare">
+                          <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                      </div>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <h3>
+                        <a href="#" class="card-title">Sorvete de pistache com nozes</a>
+                      </h3>
+    
+                      <div class="card-rating">
+    
+                        <div class="rating-wrapper" aria-label="5 start rating">
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        </div>
+    
+                      </div>
+    
+                    </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--QUARTA PARTE DOS DOCES-->
+
+      <section class="section shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Hotdeiros - Para maiores de 18 anos</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Encomendas</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-cachaca.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de cachaça</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-caipirinha.png" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 4,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de caipirinha</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-de-gin.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 4,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de gin</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-de-conhaque.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 5,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de conhaque</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-de-vinho1.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 5,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de vinho tinto</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-de-vinho2.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">R$ 60,00</del>
+
+                    <span class="span">R$ 50,00 (conjunto)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de vinho + vinho</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <li class="scrollbar-item">
+                  <div class="shop-card">
+    
+                    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                      <img src="./img/brig-de-champagne.png" width="540" height="720" loading="lazy"
+                        alt="Facial cleanser" class="img-cover">
+
+                      <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+    
+                      <div class="card-actions">
+    
+                        <button class="action-btn" aria-label="add to cart">
+                          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="add to whishlist">
+                          <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                        <button class="action-btn" aria-label="compare">
+                          <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                        </button>
+    
+                      </div>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <div class="price">
+                        <del class="del">R$ 65,00</del>
+
+                        <span class="span">R$ 60,00 (conjunto)</span>
+                      </div>
+    
+                      <h3>
+                        <a href="#" class="card-title">Brigadeiro de champagne + champagne</a>
+                      </h3>
+    
+                      <div class="card-rating">
+    
+                        <div class="rating-wrapper" aria-label="5 start rating">
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        </div>
+    
+                      </div>
+    
+                    </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--QUINTA PARTE DOS DOCES-->
+
+      <section class="section shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Brigadeiros - Versão verão</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">Encomendas</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-laranja.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de laranja</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-maracuja.png" width="540" height="720" loading="lazy"
+                    alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 4,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de maracujá</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-manga.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 3,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de manga</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-morango.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">R$ 4,00</del>
+
+                    <span class="span">R$ 3,00 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de morango</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-maca.png" width="540" height="720" loading="lazy"
+                    alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">PROMOÇÃO</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">R$ 4,60</del>
+
+                    <span class="span">R$ 3,50 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de maçã</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./img/brig-kiwi.png" width="540" height="720" loading="lazy"
+                    alt="Facial cleanser" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">R$ 4,50 (unidade)</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">Brigadeiro de kiwi</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+            <!--SEXTA PARTE DOS DOCES-->
+
+            <section class="section shop" aria-label="shop" data-section>
+              <div class="container">
+      
+                <div class="title-wrapper">
+                  <h2 class="h2 section-title">Doces fitness</h2>
+      
+                  <a href="#" class="btn-link">
+                    <span class="span">Encomendas</span>
+    
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+      
+                <ul class="has-scrollbar">
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-light.png" width="540" height="720" loading="lazy"
+                          alt="Facial cleanser" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 5,00 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro light</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-cacau-fit.png" width="540" height="720" loading="lazy"
+                          alt="Bio-shroom Rejuvenating Serum" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 5,00 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro low carb - com 100% cacau</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-whey.png" width="540" height="720" loading="lazy"
+                          alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 7,00 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro de Whey Protein</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-amendoas.png" width="540" height="720" loading="lazy"
+                          alt="Facial cleanser" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 6,50 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro com leite de amêndoas</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-batata-doce.png" width="540" height="720" loading="lazy"
+                          alt="Coffee Bean Caffeine Eye Cream" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 4,00 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro de batata doce</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                  <li class="scrollbar-item">
+                    <div class="shop-card">
+      
+                      <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                        <img src="./img/brig-branco.png" width="540" height="720" loading="lazy"
+                          alt="Facial cleanser" class="img-cover">
+      
+                        <div class="card-actions">
+      
+                          <button class="action-btn" aria-label="add to cart">
+                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="add to whishlist">
+                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                          <button class="action-btn" aria-label="compare">
+                            <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                          </button>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card-content">
+      
+                        <div class="price">
+                          <span class="span">R$ 4,60 (unidade)</span>
+                        </div>
+      
+                        <h3>
+                          <a href="#" class="card-title">Brigadeiro branco - com leite de coco e castanhas</a>
+                        </h3>
+      
+                        <div class="card-rating">
+      
+                          <div class="rating-wrapper" aria-label="5 start rating">
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                          </div>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+      
+                </ul>
+      
+              </div>
+            </section>
+
+
+
+
+      <!-- 
+        - #NOVIDADES
+      -->
+
+      <section class="section banner" id="lancamento" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle">Vem aí!</p>
+
+                <h2 class="h2 card-title">Lançamento dos doces de primavera</h2>
+
+                <a href="#" class="btn btn-secondary">Previsto para 20/07</a>
+
+                <div class="has-bg-image" style="background-image: url('./img/lancamento.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title">Você não quer perder, né?</h2>
+                <br>
+                <a href="#" class="btn btn-secondary">Esteja pronto</a>
+
+                <div class="has-bg-image" style="background-image: url('./img/lancamento2.png')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" id="empresa" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Por que comprar com a nossa empresa?</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./img/melhor.png" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
+                  class="card-icon">
+
+                <h3 class="h3 card-title">O melhor para você</h3>
+
+                <p class="card-text">
+                  Porque garantimos a qualidade do nosso produto, para chegar da melhor forma possível os nossos clientes.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./img/sabor.png" width="204" height="236" loading="lazy"
+                  alt="Completely Cruelty-Free" class="card-icon">
+
+                <h3 class="h3 card-title">Sabores</h3>
+
+                <p class="card-text">
+                  Os sabores foram todos pensados e produzidos para agradar desde os pequenos até os mais idosos, para que todos apreciem o doce da vida.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./img/preco.png" width="204" height="236" loading="lazy"
+                  alt="Ingredient Sourcing" class="card-icon">
+
+                <h3 class="h3 card-title">Precinho camarada</h3>
+
+                <p class="card-text">
+                  Nós temos o orçamento que cabe perfeitamente no seu bolso, e você consegue escolher as delícias que deseja experimentar.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="encomendas" aria-label="blog" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">O que está esperando?</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://i.pinimg.com/564x/99/ca/50/99ca507a6389f799a40cacb66d51964e.jpg" width="700" height="450" loading="lazy" alt="Find a Store"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Encomendas para aniversários</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Venha fazer seu pedido</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://i.pinimg.com/564x/c2/73/d3/c273d37f253430290dd6baf8d08d743f.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Encomendas para casamentos</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Encomende conosco</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="https://i.pinimg.com/736x/c8/04/a3/c804a36ff6fcac21dd3785e318dd912b.jpg" width="700" height="450" loading="lazy" alt="Our Story"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Pequenas compras</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Não perca!</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Empresa</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Deseja ter uma pertinho de você? Veja: <a href="#" class="link">Projetos futuros</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+55 (84) 4002-8922</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">contato@docevitta.com</p>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Localização</p>
+          </li>
+
+          <li>
+            <a href="https://goo.gl/maps/JAfgNcdCjSXyPa8o7" class="footer-link">Centro, Parnamirim - RN</a>
+          </li>
+
+          <li>
+            <p class="footer-list-text">CEP: 59000-123</p>
+          </li>
+
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Redes sociais</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">Whatsapp: (84) 98765-4321</p>
+          </li>
+
+          <li>
+            <p class="footer-link">Instagram: @DoceVittarn</p>
+          </li>
+
+          <li>
+            <p class="footer-link">Facebook:  DoceVitta RN</p>
+          </li>
+
+          <li>
+            <p class="footer-link">Tik Tok: DoceVitta_RN</p>
+          </li>
+
+          <li>
+            <p class="footer-link">Threads: DoceVittaRN</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Instagram</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Camile Joice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Carlos Eduardo</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Luana Grazielly</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Maria das Vitórias</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Renata Rayane</a>
+          </li>
+
+        </ul>
+
+
+        
+
+
+        
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2022 codewithsadee
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./img/logo-footer.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+        <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="docevitta.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
